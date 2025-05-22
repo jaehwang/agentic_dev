@@ -73,5 +73,6 @@ flowchart TD
 
 - [프로젝트 개요](./projectbrief.md) - 프로젝트의 목표, 현재 상황 및 시스템 아키텍처에 대한 개요
 - [요구사항 문서 검색 시스템 설계](./design_for_requirements.md) - 벡터 DB 기반 요구사항 문서 검색 시스템의 상세 설계
+- [차량용 AV/N 시스템의 개인화된 미디어 추천 기능 설계](./avn_personalized_media_recommendation_design.md) - Linux 및 Qt 기반 차량용 AV/N 시스템의 개인화된 미디어 추천 기능 설계
 - (향후 추가 예정) 설계 문서 검색 시스템 설계
 - (향후 추가 예정) 시스템 통합 설계
