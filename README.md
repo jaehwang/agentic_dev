@@ -82,4 +82,7 @@ graph TD
 
 - [CaD.md](./CaD.md) - Code as a Document 패러다임 (Document-to-Code)
 - [ai_re_and_arch.md](./ai_re_and_arch.md) - AI 기반 지식 관리 시스템 (Document-to-Document)
+- [change_strategy.md](./change_strategy.md) - 변경 관리 전략
 - [design_for_requirements.md](./design_for_requirements.md) - 벡터 DB 기반 문서 검색 설계
+- [ai_native_developer.md](./ai_native_developer.md) - AI Native Developer 역할 및 가이드
+- [cad_architect.md](./cad_architect.md) - CaD 아키텍트 역할 및 설계 원칙
