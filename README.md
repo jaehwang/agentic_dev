@@ -86,5 +86,6 @@ graph TD
   * [AI Native Architect](./cad_architect.md)
 - [변화 관리](./change_strategy.md)
 - Systems
-  * [AI 기반 분석 설계](./ai_re_and_arch.md)
-  * [요구 분석 상세 설계](./design_for_requirements.md)
+  * [AI 기반 개발 환경 아키텍처 설계](./ai_assisted_dev_env_architecture.md)
+  * [AI 기반 분석 설계 지원 시스템](./ai_re_and_arch.md)
+  * [요구 사항 벡터 데이터베이스 시스템 상세 설계](./design_for_requirements.md)
