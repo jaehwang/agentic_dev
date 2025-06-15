@@ -16,7 +16,7 @@ AI 에이전트는 문서를 분석하고, 변경 사항을 반영하며, 필요
 
 | 구성 요소             | 설명                                         |
 | ----------------- | ------------------------------------------ |
-| `prompt.md`       | 사용자 또는 PM이 작성한 고레벨 요구사항 설명                 |
+| `requirements.md` | 사용자 또는 PM이 작성한 고레벨 요구사항 설명                 |
 | `design.md`       | 시스템 아키텍처 및 설계, 다이어그램 포함 (Mermaid/PlantUML) |
 | `spec.md`         | 컴포넌트별 기능 명세 및 제약 조건                        |
 | `code/` 디렉터리      | AI가 생성한 실제 소스 코드 파일                        |
@@ -29,13 +29,13 @@ AI 에이전트는 문서를 분석하고, 변경 사항을 반영하며, 필요
 
 ```mermaid
 graph TD
-    AA[요구사항 작성 prompt.md] --> B[설계 정의 design.md]
+    AA[요구사항 작성 requirements.md] --> B[설계 정의 design.md]
     B --> C[AI Agent 생성 요청]
     C --> D[코드 자동 생성 code/]
     C --> E[테스트 케이스 자동 생성 test_plan.md]
     C --> F[인프라 정의 infra/]
     D --> G[사용자 검토 및 피드백]
-    G --> H[변경 요청 → prompt.md 업데이트]
+    G --> H[변경 요청 → requirements.md 업데이트]
     H --> C
 ```
 

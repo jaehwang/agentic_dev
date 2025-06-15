@@ -33,7 +33,7 @@ Code as a Document (CaD) 방식에서 아키텍트는 전통적인 시스템 설
   ```
   /enterprise_system/
   ├── system/                    # 시스템 레벨
-  │   ├── prompt.md             # 전체 시스템 요구사항
+  │   ├── requirements.md       # 전체 시스템 요구사항
   │   ├── design.md             # 시스템 아키텍처
   │   ├── constraints.md        # 시스템 제약사항
   │   └── integration.md        # 시스템 간 연동 방안
@@ -56,8 +56,8 @@ Code as a Document (CaD) 방식에서 아키텍트는 전통적인 시스템 설
 - **문서 간 의존성 매트릭스 정의**
   ```mermaid
   graph TD
-      A[System prompt.md] --> B[Domain prompt.md]
-      B --> C[Module prompt.md]
+      A[System requirements.md] --> B[Domain requirements.md]
+      B --> C[Module requirements.md]
       C --> D[Component spec.md]
       
       E[System design.md] --> F[Domain design.md]
@@ -86,7 +86,7 @@ AI 에이전트가 효과적으로 작업할 수 있도록 프롬프트 체계�
   # AI Agent Commands for System Level
   
   ## Architecture Generation
-  - `mcp://generate-architecture?input=system/prompt.md&output=system/design.md`
+  - `mcp://generate-architecture?input=system/requirements.md&output=system/design.md`
   - `mcp://validate-architecture?design=system/design.md&constraints=system/constraints.md`
   
   ## Module Decomposition  
@@ -303,7 +303,7 @@ graph TD
 
 ### 4.1 문서 템플릿
 
-#### System Level prompt.md 템플릿
+#### System Level requirements.md 템플릿
 ```markdown
 # [시스템명] 요구사항 정의
 
@@ -385,13 +385,13 @@ tests: test/[module_name]/
 # Architecture Generation Commands
 
 ## System Level
-- `mcp://analyze-requirements?input=system/prompt.md&context=enterprise_context`
-- `mcp://generate-architecture?requirements=system/prompt.md&output=system/design.md`
+- `mcp://analyze-requirements?input=system/requirements.md&context=enterprise_context`
+- `mcp://generate-architecture?requirements=system/requirements.md&output=system/design.md`
 - `mcp://validate-architecture?design=system/design.md&constraints=system/constraints.md`
 
 ## Module Level  
 - `mcp://decompose-system?system_design=system/design.md&output_dir=modules/`
-- `mcp://generate-module-design?module=modules/[name]/prompt.md&output=modules/[name]/design.md`
+- `mcp://generate-module-design?module=modules/[name]/requirements.md&output=modules/[name]/design.md`
 - `mcp://validate-interfaces?modules=modules/*/design.md&output=system/interface_validation.md`
 
 ## Component Level

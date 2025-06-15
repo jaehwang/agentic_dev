@@ -1,20 +1,16 @@
 # 활성 컨텍스트 (Active Context)
 
 ## 현재 작업 초점
--   **"AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 수립**: 사용자와의 논의를 통해 문서의 목차 초안을 구성하고, 프로젝트-모듈-태스크 레벨에서의 정보 흐름 및 Memory Bank와 AI Agent의 역할을 명확히 하는 다이어그램을 구체화하고 있습니다.
+-   **`prompt.md`를 `requirements.md`로 변경**: 코드베이스 전체 문서에서 `prompt.md`를 `requirements.md`로 일괄 변경하는 작업을 진행 중입니다.
 
 ## 최근 변경 사항
--   `productContext.md` 파일 생성 및 초기 내용 작성 완료.
--   `systemPatterns.md` 파일 생성 및 초기 내용 작성 완료.
--   `techContext.md` 파일 생성 및 초기 내용 작성 완료.
--   본 `activeContext.md` 파일 생성 및 초기 내용 작성 중.
--   "AI Agent와 코딩을 잘 하는 법" 문서의 목차 초안 제시.
--   사용자 피드백을 반영하여 프로젝트-모듈-태스크-AI-MemoryBank 관계 다이어그램 수정 및 관련 Mermaid 코드 오류 수정.
+-   `README.md`, `memory-bank/techContext.md`, `ai_native_developer.md`, `memory-bank/systemPatterns.md`, `CaD.md`, `ai_agent_coding_best_practices.md`, `cad_architect.md`, `change_strategy.md` 파일 내의 `prompt.md` 문자열을 `requirements.md`로 변경 완료.
+-   기존 "AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 수립 작업은 현재 작업으로 인해 일시 중단됨.
 
 ## 다음 단계
--   `progress.md` 파일 업데이트 (현재 논의 내용 반영).
--   사용자와 합의된 목차 및 다이어그램을 바탕으로 "AI Agent와 코딩을 잘 하는 법" 문서의 실제 내용 작성 시작.
+-   `progress.md` 파일 업데이트 (현재 `prompt.md` -> `requirements.md` 변경 작업 완료 내용 반영).
 -   모든 필수 Memory Bank 파일이 현재 상태를 잘 반영하고 있는지 최종 확인.
+-   (이전 작업 이어하기) 사용자와 합의된 목차 및 다이어그램을 바탕으로 "AI Agent와 코딩을 잘 하는 법" 문서의 실제 내용 작성 시작.
 
 ## 중요한 결정 및 고려 사항
 -   **Memory Bank 우선순위**: `.clinerules/memory-bank.md`의 지침에 따라 모든 필수 Memory Bank 파일을 먼저 읽고, 누락된 경우 생성하는 것을 최우선으로 합니다. 이는 프로젝트 컨텍스트를 완전히 이해하고 작업을 효과적으로 수행하기 위함입니다.

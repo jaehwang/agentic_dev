@@ -74,7 +74,7 @@ graph TD
 - 의미 기반 문서 조회
 
 ### CaD 개발 환경
-- `prompt.md` → `design.md` → `code/` → `test_plan.md`
+- `requirements.md` → `design.md` → `code/` → `test_plan.md`
 - AI Agent 명령 인터페이스
 - Git 기반 형상관리
 

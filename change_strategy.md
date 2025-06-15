@@ -51,7 +51,7 @@ graph TD
 
 #### B. 프로세스 변화
 - **기존**: 요구사항 → 설계 → 코딩 → 테스트 (순차적)
-- **AI Native**: prompt.md → design.md → code/ → test_plan.md (문서 기반 통합)
+- **AI Native**: requirements.md → design.md → code/ → test_plan.md (문서 기반 통합)
 
 #### C. 문화적 변화
 - **Code First → Document First**: 모든 것이 문서에서 시작
@@ -156,7 +156,7 @@ graph TD
 **프로세스 적용**:
 ```
 기존 LLM 활용 → AI Native 워크플로우
-개별 문서 작성 → prompt.md → design.md → code/
+개별 문서 작성 → requirements.md → design.md → code/
 수동 코드 리뷰 → AI 기반 품질 검증
 ```
 

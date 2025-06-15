@@ -3,16 +3,23 @@
 ## 현재 작동하는 부분
 -   **Memory Bank 파일 구조 정의**: `.clinerules/memory-bank.md`를 통해 Memory Bank의 핵심 파일들과 그 목적이 정의되었습니다.
 -   **초기 문서 로드 및 분석**: `projectbrief.md`, `README.md` 및 `README.md`에서 참조하는 주요 문서들을 성공적으로 읽고 분석하여 프로젝트의 기본 컨텍스트를 파악했습니다.
--   **필수 Memory Bank 파일 초기 생성**:
+-   **필수 Memory Bank 파일 초기 생성 및 업데이트**:
     -   `productContext.md` 생성 및 초기 내용 작성 완료.
-    -   `systemPatterns.md` 생성 및 초기 내용 작성 완료.
-    -   `techContext.md` 생성 및 초기 내용 작성 완료.
-    -   `activeContext.md` 생성 및 초기 내용 작성 완료 (최근 "AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 반영하여 업데이트됨).
-    -   본 `progress.md` 파일 생성 및 초기 내용 작성 중 (현재 업데이트 진행 중).
-    -   "AI Agent와 코딩을 잘 하는 법" 문서 작성에 대한 초기 계획(목차, 다이어그램) 수립 완료.
+    -   `systemPatterns.md` 생성 및 초기 내용 작성 완료 (내부 `prompt.md` 문자열 `requirements.md`로 변경 완료).
+    -   `techContext.md` 생성 및 초기 내용 작성 완료 (내부 `prompt.md` 문자열 `requirements.md`로 변경 완료).
+    -   `activeContext.md` 생성 및 `prompt.md` -> `requirements.md` 변경 작업 내용 반영하여 업데이트 완료.
+    -   본 `progress.md` 파일 생성 및 `prompt.md` -> `requirements.md` 변경 작업 내용 반영하여 업데이트 중.
+-   **주요 문서 내 `prompt.md` 문자열 `requirements.md`로 변경 완료**:
+    -   `README.md`
+    -   `ai_native_developer.md`
+    -   `CaD.md`
+    -   `ai_agent_coding_best_practices.md`
+    -   `cad_architect.md`
+    -   `change_strategy.md`
+-   "AI Agent와 코딩을 잘 하는 법" 문서 작성에 대한 초기 계획(목차, 다이어그램) 수립 완료 (현재 `prompt.md` 변경 작업으로 일시 중단).
 
 ## 구축해야 할 부분 (현재 작업 관련)
--   **"AI Agent와 코딩을 잘 하는 법" 문서의 실제 내용 작성**:
+-   (이전 작업 이어하기) **"AI Agent와 코딩을 잘 하는 법" 문서의 실제 내용 작성**:
     -   사용자와 합의된 목차 각 항목에 대한 상세 설명 및 예시 추가.
     -   프로젝트-모듈-태스크 정보 흐름 및 Memory Bank/AI Agent 역할 다이어그램을 문서에 포함.
 
@@ -40,8 +47,9 @@
     -   개발자와 상호작용하며 위 MCP 서버들을 활용하여 개발 지원 기능을 제공하는 클라이언트 도구 (IDE 플러그인 형태 등).
 
 ## 현재 상태
--   **Memory Bank 초기화 및 업데이트 완료**: 모든 필수 Memory Bank 파일이 생성되었고, 프로젝트의 기본 컨텍스트 파악 및 최근 "AI Agent와 코딩을 잘 하는 법" 문서 작성 계획까지 반영하여 업데이트되었습니다.
--   **"AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 단계**: 목차 및 주요 다이어그램에 대한 논의가 완료되었으며, 실제 문서 작성을 시작할 준비가 되었습니다.
+-   **`prompt.md` -> `requirements.md` 변경 작업 완료**: 코드베이스 내 주요 문서에서 `prompt.md` 문자열을 `requirements.md`로 성공적으로 변경했습니다.
+-   **Memory Bank 업데이트 완료**: `activeContext.md` 및 `progress.md`에 현재 작업 상태를 반영했습니다.
+-   **"AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 단계**: 목차 및 주요 다이어그램에 대한 논의가 완료되었으며, 실제 문서 작성을 시작할 준비가 되었습니다 (이전 작업).
 -   **실제 시스템 컴포넌트 개발 이전 단계**: 아직 프로젝트의 주요 시스템 컴포넌트 개발은 시작되지 않았습니다.
 
 ## 알려진 문제 (또는 잠재적 이슈)

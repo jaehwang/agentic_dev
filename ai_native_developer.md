@@ -3,7 +3,7 @@
 ## 핵심 요약
 
 * **AI 파트너십**: AI를 단순한 도구가 아닌 개발 파트너로 인식하고 지속적으로 협업하는 개발자
-* **문서 우선 개발**: 코드보다 문서(prompt.md → design.md → code/)에서 시작하는 CaD 워크플로우 실천
+* **문서 우선 개발**: 코드보다 문서(requirements.md → design.md → code/)에서 시작하는 CaD 워크플로우 실천
 * **지식 생태계 활용**: 벡터 DB와 조직의 축적된 지식을 적극적으로 검색하고 재활용하여 개발
 * **자동화 중심**: 반복 작업은 AI로 자동화하고 창의적이고 전략적인 작업에 집중
 * **10배 생산성**: AI 협업을 통해 기존 개발자 대비 극적인 효율성과 품질 향상을 달성하는 미래형 개발자
@@ -24,7 +24,7 @@
 - **반복적 개선**: 완벽보다는 빠른 피드백과 지속적 개선 추구
 
 #### 2. 기술적 역량
-- **CaD (Code as a Document) 워크플로우**: prompt.md → design.md → code/ → test_plan.md
+- **CaD (Code as a Document) 워크플로우**: requirements.md → design.md → code/ → test_plan.md
 - **벡터 DB 활용**: 기존 지식을 효과적으로 검색하고 재활용
 - **AI Agent 협업**: Document-to-Document, Document-to-Code 에이전트와 협업
 - **MCP 프로토콜**: Model Context Protocol을 통한 AI 시스템 연동
@@ -94,7 +94,7 @@
 
 ```mermaid
 graph TD
-    A[prompt.md<br/>요구사항 정의] --> B[design.md<br/>시스템 설계]
+    A[requirements.md<br/>요구사항 정의] --> B[design.md<br/>시스템 설계]
     B --> C[code/<br/>구현]
     C --> D[test_plan.md<br/>테스트 계획]
     
@@ -111,7 +111,7 @@ graph TD
 
 ## 일반적인 개발 과정
 
-### 1. 문제 정의 (prompt.md)
+### 1. 문제 정의 (requirements.md)
 ```markdown
 # 사용자 인증 시스템 구현
 
@@ -185,7 +185,7 @@ AI Native Developer는 단순히 새로운 개발자 유형이 아니라, **미�
 
 ### 2단계: 문서 중심 개발 시도
 - 간단한 프로젝트에 CaD 워크플로우 적용
-- prompt.md → design.md → code/ 순서로 개발
+- requirements.md → design.md → code/ 순서로 개발
 - 문서와 코드의 일관성 유지 연습
 
 ### 3단계: AI 협업 심화
