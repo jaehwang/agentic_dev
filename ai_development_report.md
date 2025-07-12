@@ -44,14 +44,14 @@ AI Native 소프트웨어 엔지니어는 AI를 일상적인 개발 워크플로
 
 ## 3. AI 코딩 베스트 프랙티스
 
-### 핵심 철학
+### 3.1. 핵심 철학
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
 
 **"AI can infer intent, but it can't read minds. Specificity leads to better alignment with expectations."**
 
 AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 컨텍스트 제공을 통해 달성됩니다. 단순한 코드 생성을 넘어서 **체계적인 워크플로우**와 **전략적 접근**이 필요합니다.
 
-### 1. 효과적인 워크플로우 패턴
+### 3.2. 효과적인 워크플로우 패턴
 
 #### 탐색-계획-구현-검증 패턴
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -77,7 +77,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 3. **비교**: 결과물과 목표 간 차이점 분석
 4. **반복**: 목표에 도달할 때까지 개선 반복
 
-### 2. 지시사항 최적화 기법
+### 3.3. 지시사항 최적화 기법
 
 #### 구체성의 중요성
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -93,7 +93,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **예상 결과 설명**: 최종 결과물의 동작 방식 상세 기술
 - **품질 기준 제시**: 성능, 보안, 접근성 등 요구사항 명시
 
-### 3. 멀티 에이전트 활용 전략
+### 3.4. 멀티 에이전트 활용 전략
 
 #### 역할 분리 접근법
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -110,7 +110,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **브랜치별 작업**: Git 브랜치를 활용한 병렬 개발
 - **컴포넌트 단위 분할**: UI 컴포넌트, API 엔드포인트 등 단위별 할당
 
-### 4. 품질 보장 메커니즘
+### 3.5. 품질 보장 메커니즘
 
 #### 조기 및 빈번한 피드백
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -127,7 +127,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **보안 스캔**: 취약점 자동 탐지 및 수정 제안
 - **성능 테스트**: 성능 기준 충족 여부 자동 검증
 
-### 5. 고급 활용 패턴
+### 3.6. 고급 활용 패턴
 
 #### 헤드리스 자동화
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -147,7 +147,7 @@ AI를 활용한 효과적인 코드베이스 이해:
 - **의존성 추적**: "이 함수를 수정하면 어떤 부분에 영향을 주나?"
 - **히스토리 분석**: "이 코드가 왜 이렇게 구현되었나?"
 
-### 핵심 성공 요소
+### 3.7. 핵심 성공 요소
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
 
 1. **명확한 의도 전달**: 추상적 요청보다는 구체적 지시사항
