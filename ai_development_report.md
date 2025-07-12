@@ -169,7 +169,7 @@ AI를 활용한 효과적인 코드베이스 이해:
 
 1. **"Priming the agent"**: Claude가 관련 소스 코드와 문서를 읽도록 하여 구현 전 컨텍스트 제공
 2. **"Agents Can't Read Your Mind, They Need Specs"**: 상세한 명세서 작성의 중요성
-3. **Ultrathink 모드**: 코딩 전 종합적인 계획 수립
+3. [**Ultrathink 모드**](https://www.anthropic.com/engineering/claude-code-best-practices): 코딩 전 종합적인 계획 수립
 4. **피드백 루프**: 빌드, 테스트, 디버깅을 위한 순환 구조
 
 ### 4.3. 미래 전망
