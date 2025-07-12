@@ -84,9 +84,11 @@ graph TD
 
 - [Code as a Document 패러다임: Document-to-Code](./CaD.md)
 - Roles
-  * [AI Native Developer](./ai_native_developer.md)
   * [AI Native Architect](./cad_architect.md)
 - [변화 관리](./change_strategy.md)
+- Reports
+  * [AI 개발 현황 리포트](./ai_development_report.md)
+  * [AI Agent 코딩 베스트 프랙티스](./ai_agent_coding_best_practices.md)
 - Systems
   * [AI 기반 개발 환경 아키텍처 설계](./ai_assisted_dev_env_architecture.md)
   * [AI 기반 분석 설계 지원 시스템](./ai_re_and_arch.md)
