@@ -1,16 +1,21 @@
 # 활성 컨텍스트 (Active Context)
 
 ## 현재 작업 초점
--   **`prompt.md`를 `requirements.md`로 변경**: 코드베이스 전체 문서에서 `prompt.md`를 `requirements.md`로 일괄 변경하는 작업을 진행 중입니다.
+-   **문서 구조 정리 및 최적화**: 새로 추가된 `ai_development_report.md`와 중복되는 기존 문서를 정리하여 문서 구조를 최적화하는 작업을 완료했습니다.
 
 ## 최근 변경 사항
--   `README.md`, `memory-bank/techContext.md`, `ai_native_developer.md`, `memory-bank/systemPatterns.md`, `CaD.md`, `ai_agent_coding_best_practices.md`, `cad_architect.md`, `change_strategy.md` 파일 내의 `prompt.md` 문자열을 `requirements.md`로 변경 완료.
--   기존 "AI Agent와 코딩을 잘 하는 법" 문서 작성 계획 수립 작업은 현재 작업으로 인해 일시 중단됨.
+-   **ai_development_report.md 추가**: AI 개발 현황에 대한 종합적인 리포트 문서가 새로 추가되었습니다.
+-   **ai_native_developer.md 삭제**: 새로운 리포트와 70% 이상 중복되는 내용으로 인해 삭제되었습니다.
+-   **README.md 구조 개선**: 
+     - 삭제된 파일 링크 제거
+     - 새로운 "Reports" 섹션 추가
+     - AI 개발 관련 문서들의 역할 명확화
+-   이전 `prompt.md` -> `requirements.md` 변경 작업 완료.
 
 ## 다음 단계
--   `progress.md` 파일 업데이트 (현재 `prompt.md` -> `requirements.md` 변경 작업 완료 내용 반영).
--   모든 필수 Memory Bank 파일이 현재 상태를 잘 반영하고 있는지 최종 확인.
--   (이전 작업 이어하기) 사용자와 합의된 목차 및 다이어그램을 바탕으로 "AI Agent와 코딩을 잘 하는 법" 문서의 실제 내용 작성 시작.
+-   정리된 문서 구조를 바탕으로 각 문서의 고유한 역할과 가치 확인
+-   필요시 추가적인 문서 정리 또는 내용 보완
+-   AI 개발 워크플로우 실제 적용 및 피드백 수집
 
 ## 중요한 결정 및 고려 사항
 -   **Memory Bank 우선순위**: `.clinerules/memory-bank.md`의 지침에 따라 모든 필수 Memory Bank 파일을 먼저 읽고, 누락된 경우 생성하는 것을 최우선으로 합니다. 이는 프로젝트 컨텍스트를 완전히 이해하고 작업을 효과적으로 수행하기 위함입니다.
