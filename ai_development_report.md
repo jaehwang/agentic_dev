@@ -20,38 +20,16 @@ AI Native 소프트웨어 엔지니어는 AI를 일상적인 개발 워크플로
 *출처: [The AI-Native Software Engineer](https://addyo.substack.com/p/the-ai-native-software-engineer)*
 - GitHub Copilot, Cursor, Cline, Windsurf, Bolt, v0.dev
 
-## 2. 실전 사례: Claude로 만든 Mac App
+## 2. AI 코딩 베스트 프랙티스
 
-### 2.1. 개발 성과
-*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
-
-- **20,000줄의 코드를 거의 100% AI로 생성**
-- 개발자가 직접 작성한 코드는 **1,000줄 미만**
-- **"Generated 20,000 lines of code with minimal manual intervention"**
-
-### 2.2. Context 엔지니어링 기법
-*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
-
-1. **"Priming the agent"**: Claude가 관련 소스 코드와 문서를 읽도록 하여 구현 전 컨텍스트 제공
-2. **"Agents Can't Read Your Mind, They Need Specs"**: 상세한 명세서 작성의 중요성
-3. **Ultrathink 모드**: 코딩 전 종합적인 계획 수립
-4. **피드백 루프**: 빌드, 테스트, 디버깅을 위한 순환 구조
-
-### 2.3. 미래 전망
-*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
-
-**"IDEs of the future will focus on enabling developers to prime the agent's context and set up feedback loops"** 전통적인 코드 편집 인터페이스보다는 에이전트 프라이밍과 피드백 루프 설정에 집중할 것입니다.
-
-## 3. AI 코딩 베스트 프랙티스
-
-### 3.1. 핵심 철학
+### 2.1. 핵심 철학
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
 
 **"AI can infer intent, but it can't read minds. Specificity leads to better alignment with expectations."**
 
 AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 컨텍스트 제공을 통해 달성됩니다. 단순한 코드 생성을 넘어서 **체계적인 워크플로우**와 **전략적 접근**이 필요합니다.
 
-### 3.2. 효과적인 워크플로우 패턴
+### 2.2. 효과적인 워크플로우 패턴
 
 #### 탐색-계획-구현-검증 패턴
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -77,7 +55,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 3. **비교**: 결과물과 목표 간 차이점 분석
 4. **반복**: 목표에 도달할 때까지 개선 반복
 
-### 3.3. 지시사항 최적화 기법
+### 2.3. 지시사항 최적화 기법
 
 #### 구체성의 중요성
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -93,7 +71,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **예상 결과 설명**: 최종 결과물의 동작 방식 상세 기술
 - **품질 기준 제시**: 성능, 보안, 접근성 등 요구사항 명시
 
-### 3.4. 멀티 에이전트 활용 전략
+### 2.4. 멀티 에이전트 활용 전략
 
 #### 역할 분리 접근법
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -110,7 +88,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **브랜치별 작업**: Git 브랜치를 활용한 병렬 개발
 - **컴포넌트 단위 분할**: UI 컴포넌트, API 엔드포인트 등 단위별 할당
 
-### 3.5. 품질 보장 메커니즘
+### 2.5. 품질 보장 메커니즘
 
 #### 조기 및 빈번한 피드백
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -127,7 +105,7 @@ AI 코딩 도구의 효과적 활용은 구체적인 지시사항과 명확한 �
 - **보안 스캔**: 취약점 자동 탐지 및 수정 제안
 - **성능 테스트**: 성능 기준 충족 여부 자동 검증
 
-### 3.6. 고급 활용 패턴
+### 2.6. 고급 활용 패턴
 
 #### 헤드리스 자동화
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
@@ -147,7 +125,7 @@ AI를 활용한 효과적인 코드베이스 이해:
 - **의존성 추적**: "이 함수를 수정하면 어떤 부분에 영향을 주나?"
 - **히스토리 분석**: "이 코드가 왜 이렇게 구현되었나?"
 
-### 3.7. 핵심 성공 요소
+### 2.7. 핵심 성공 요소
 *출처: [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)*
 
 1. **명확한 의도 전달**: 추상적 요청보다는 구체적 지시사항
@@ -156,9 +134,9 @@ AI를 활용한 효과적인 코드베이스 이해:
 4. **품질 검증**: 자동화된 테스트와 수동 검토의 조합
 5. **전략적 활용**: 단순 코드 생성을 넘어선 워크플로우 최적화
 
-## 4. LLM 워크플로우 최적화
+## 3. LLM 워크플로우 최적화
 
-### 4.1. 에이전트 대신 워크플로우 패턴 활용
+### 3.1. 에이전트 대신 워크플로우 패턴 활용
 *출처: [Stop building AI agents](https://decodingml.substack.com/p/stop-building-ai-agents)*
 
 **"Stop building AI agents. Use smarter LLM workflows"**라는 핵심 권장사항에 따라 다음 5가지 워크플로우 패턴을 활용:
@@ -169,13 +147,35 @@ AI를 활용한 효과적인 코드베이스 이해:
 4. **Orchestrator-Worker**: 중앙 LLM이 전문화된 워커들을 조정
 5. **Evaluator-Optimizer**: 출력 품질을 반복적으로 개선
 
-### 4.2. 에이전트 실패 요인
+### 3.2. 에이전트 실패 요인
 *출처: [Stop building AI agents](https://decodingml.substack.com/p/stop-building-ai-agents)*
 
 - 작업 컨텍스트 망각
 - 잘못된 도구 선택
 - 에이전트 간 조정 문제
 - 과도하게 복잡한 시스템 설계
+
+## 4. 실전 사례: Claude로 만든 Mac App
+
+### 4.1. 개발 성과
+*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
+
+- **20,000줄의 코드를 거의 100% AI로 생성**
+- 개발자가 직접 작성한 코드는 **1,000줄 미만**
+- **"Generated 20,000 lines of code with minimal manual intervention"**
+
+### 4.2. Context 엔지니어링 기법
+*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
+
+1. **"Priming the agent"**: Claude가 관련 소스 코드와 문서를 읽도록 하여 구현 전 컨텍스트 제공
+2. **"Agents Can't Read Your Mind, They Need Specs"**: 상세한 명세서 작성의 중요성
+3. **Ultrathink 모드**: 코딩 전 종합적인 계획 수립
+4. **피드백 루프**: 빌드, 테스트, 디버깅을 위한 순환 구조
+
+### 4.3. 미래 전망
+*출처: [I shipped a macOS app built entirely by Claude Code](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code)*
+
+**"IDEs of the future will focus on enabling developers to prime the agent's context and set up feedback loops"** 전통적인 코드 편집 인터페이스보다는 에이전트 프라이밍과 피드백 루프 설정에 집중할 것입니다.
 
 ## 5. 실전 프로젝트: AI로 만든 게임
 
