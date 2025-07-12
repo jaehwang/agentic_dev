@@ -2,6 +2,8 @@
 
 Code as a Document(CaD)는 사람과 AI가 함께하는 Markdown 기반 개발 방식이다.
 
+최근 개발 방식의 경향은 [AI 개발 보고서](ai_development_report.md)를 참고하자.
+
 ## 핵심 개념
 
 ### Markdown: 사람과 AI의 공통 언어
