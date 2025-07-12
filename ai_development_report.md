@@ -177,29 +177,15 @@ AI를 활용한 효과적인 코드베이스 이해:
 
 **"IDEs of the future will focus on enabling developers to prime the agent's context and set up feedback loops"** 전통적인 코드 편집 인터페이스보다는 에이전트 프라이밍과 피드백 루프 설정에 집중할 것입니다.
 
-## 5. 실전 프로젝트: AI로 만든 게임
+## 5. 종합 결론
 
-### 5.1. 프로젝트 개요
-*출처: [GeekNews 토론](https://news.hada.io/topic?id=21833)*
-
-20년 경력의 개발자가 **Claude Sonnet 4, OpenAI, Augment Code, Cursor**를 활용하여 **"Tower of Time" 타워 디펜스 게임**을 개발했습니다.
-
-### 5.2. 개발 성과
-*출처: [GeekNews 토론](https://news.hada.io/topic?id=21833)*
-
-- **95%의 코드가 AI 도구로 생성**
-- **Phaser.js (JavaScript 게임 엔진)** 사용
-- 시간 되감기와 전략적 타워 배치의 독특한 게임 메커니즘
-
-## 6. 종합 결론
-
-### 6.1. 비용 대비 효과
+### 5.1. 비용 대비 효과
 *출처: 복합*
 
 - **월 $200 수준의 AI 도구 사용**으로 상당한 생산성 향상 ([GeekNews](https://news.hada.io/topic?id=21847))
 - **"gaining 5 extra hours daily"** 느낌의 생산성 향상 ([GeekNews](https://news.hada.io/topic?id=21847))
 
-### 6.2. 핵심 철학
+### 5.2. 핵심 철학
 *출처: [The AI-Native Software Engineer](https://addyo.substack.com/p/the-ai-native-software-engineer)*
 
 **"AI takes on the grunt work and provides knowledge, while you provide direction, oversight, and final judgment"**
