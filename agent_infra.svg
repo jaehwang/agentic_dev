@@ -1,0 +1,363 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1400" height="900" fill="#0f172a"/>
+
+
+
+<text x="700" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#f8fafc">AI Agent-based Software Development Infrastructure</text>
+
+
+
+<g transform="translate(50, 80)">
+<rect x="0" y="0" width="1300" height="750" fill="#1e293b" stroke="#334155" stroke-width="2" rx="15" stroke-dasharray="10,5"/>
+<text x="20" y="25" fill="#94a3b8" font-size="14" font-weight="bold">Cloud Infrastructure</text>
+</g>
+
+<!-- Frontend Layer -->
+
+<g transform="translate(100, 120)">
+<rect x="0" y="0" width="1200" height="80" fill="#3730a3" stroke="#4338ca" stroke-width="2" rx="8"/>
+<text x="600" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Frontend Layer</text>
+
+```
+<!-- IDE Integration -->
+<g transform="translate(50, 35)">
+<rect x="0" y="0" width="120" height="35" fill="#5b21b7" stroke="#6d28d9" stroke-width="1" rx="4"/>
+<text x="60" y="22" text-anchor="middle" fill="white" font-size="11">IDE Plugin</text>
+</g>
+
+<!-- Web Dashboard -->
+<g transform="translate(200, 35)">
+<rect x="0" y="0" width="120" height="35" fill="#5b21b7" stroke="#6d28d9" stroke-width="1" rx="4"/>
+<text x="60" y="22" text-anchor="middle" fill="white" font-size="11">Web Dashboard</text>
+</g>
+
+<!-- CLI Tool -->
+<g transform="translate(350, 35)">
+<rect x="0" y="0" width="120" height="35" fill="#5b21b7" stroke="#6d28d9" stroke-width="1" rx="4"/>
+<text x="60" y="22" text-anchor="middle" fill="white" font-size="11">CLI Tool</text>
+</g>
+
+<!-- API Gateway -->
+<g transform="translate(950, 35)">
+<rect x="0" y="0" width="200" height="35" fill="#1e40af" stroke="#2563eb" stroke-width="1" rx="4"/>
+<text x="100" y="22" text-anchor="middle" fill="white" font-size="11">API Gateway</text>
+</g>
+```
+
+</g>
+
+<!-- AI Agent Orchestration Layer -->
+
+<g transform="translate(100, 230)">
+<rect x="0" y="0" width="1200" height="100" fill="#059669" stroke="#10b981" stroke-width="2" rx="8"/>
+<text x="600" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="bold">AI Agent Orchestration Layer</text>
+
+```
+<!-- Agent Manager -->
+<g transform="translate(50, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Agent Manager</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Task Scheduler</text>
+</g>
+
+<!-- Message Queue -->
+<g transform="translate(220, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Message Queue</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Redis/RabbitMQ</text>
+</g>
+
+<!-- Load Balancer -->
+<g transform="translate(390, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Load Balancer</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Nginx/HAProxy</text>
+</g>
+
+<!-- Service Discovery -->
+<g transform="translate(560, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Service Discovery</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Consul/Eureka</text>
+</g>
+
+<!-- Monitoring -->
+<g transform="translate(730, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Monitoring</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Prometheus</text>
+</g>
+
+<!-- Configuration -->
+<g transform="translate(900, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#047857" stroke="#059669" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Config Server</text>
+<text x="70" y="35" text-anchor="middle" fill="#d1fae5" font-size="9">Spring Cloud</text>
+</g>
+```
+
+</g>
+
+<!-- AI Agent Services -->
+
+<g transform="translate(100, 360)">
+<rect x="0" y="0" width="1200" height="120" fill="#7c2d12" stroke="#ea580c" stroke-width="2" rx="8"/>
+<text x="600" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="bold">AI Agent Services (Containerized)</text>
+
+```
+<!-- Requirements Analysis Agent -->
+<g transform="translate(50, 40)">
+<rect x="0" y="0" width="130" height="65" fill="#9a3412" stroke="#c2410c" stroke-width="1" rx="4"/>
+<text x="65" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Requirements</text>
+<text x="65" y="30" text-anchor="middle" fill="white" font-size="10">Analysis Agent</text>
+<text x="65" y="45" text-anchor="middle" fill="#fed7aa" font-size="8">Docker Container</text>
+<text x="65" y="58" text-anchor="middle" fill="#fed7aa" font-size="8">LLM + NLP</text>
+</g>
+
+<!-- Design Agent -->
+<g transform="translate(210, 40)">
+<rect x="0" y="0" width="130" height="65" fill="#9a3412" stroke="#c2410c" stroke-width="1" rx="4"/>
+<text x="65" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Design Agent</text>
+<text x="65" y="30" text-anchor="middle" fill="#fed7aa" font-size="8">Architecture</text>
+<text x="65" y="42" text-anchor="middle" fill="#fed7aa" font-size="8">Docker Container</text>
+<text x="65" y="55" text-anchor="middle" fill="#fed7aa" font-size="8">LLM + Patterns</text>
+</g>
+
+<!-- Coding Agent -->
+<g transform="translate(370, 40)">
+<rect x="0" y="0" width="130" height="65" fill="#9a3412" stroke="#c2410c" stroke-width="1" rx="4"/>
+<text x="65" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Coding Agent</text>
+<text x="65" y="30" text-anchor="middle" fill="#fed7aa" font-size="8">Code Generation</text>
+<text x="65" y="42" text-anchor="middle" fill="#fed7aa" font-size="8">Docker Container</text>
+<text x="65" y="55" text-anchor="middle" fill="#fed7aa" font-size="8">LLM + Compiler</text>
+</g>
+
+<!-- Test Agent -->
+<g transform="translate(530, 40)">
+<rect x="0" y="0" width="130" height="65" fill="#9a3412" stroke="#c2410c" stroke-width="1" rx="4"/>
+<text x="65" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Test Agent</text>
+<text x="65" y="30" text-anchor="middle" fill="#fed7aa" font-size="8">Quality Assurance</text>
+<text x="65" y="42" text-anchor="middle" fill="#fed7aa" font-size="8">Docker Container</text>
+<text x="65" y="55" text-anchor="middle" fill="#fed7aa" font-size="8">LLM + TestFramework</text>
+</g>
+
+<!-- Kubernetes Orchestration -->
+<g transform="translate(700, 40)">
+<rect x="0" y="0" width="450" height="65" fill="#1e40af" stroke="#2563eb" stroke-width="1" rx="4"/>
+<text x="225" y="18" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Kubernetes Orchestration</text>
+<text x="100" y="35" text-anchor="middle" fill="#dbeafe" font-size="9">Pod Management</text>
+<text x="225" y="35" text-anchor="middle" fill="#dbeafe" font-size="9">Auto Scaling</text>
+<text x="350" y="35" text-anchor="middle" fill="#dbeafe" font-size="9">Resource Allocation</text>
+<text x="100" y="50" text-anchor="middle" fill="#dbeafe" font-size="9">Service Mesh</text>
+<text x="225" y="50" text-anchor="middle" fill="#dbeafe" font-size="9">Health Checks</text>
+<text x="350" y="50" text-anchor="middle" fill="#dbeafe" font-size="9">Rolling Updates</text>
+</g>
+```
+
+</g>
+
+<!-- Data Layer -->
+
+<g transform="translate(100, 510)">
+<rect x="0" y="0" width="1200" height="100" fill="#581c87" stroke="#7c3aed" stroke-width="2" rx="8"/>
+<text x="600" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Data Infrastructure Layer</text>
+
+```
+<!-- Vector Database -->
+<g transform="translate(50, 40)">
+<rect x="0" y="0" width="180" height="45" fill="#6b21a8" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+<text x="90" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Vector Database</text>
+<text x="90" y="35" text-anchor="middle" fill="#e9d5ff" font-size="9">Pinecone/Weaviate/Chroma</text>
+</g>
+
+<!-- Knowledge Graph -->
+<g transform="translate(260, 40)">
+<rect x="0" y="0" width="180" height="45" fill="#6b21a8" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+<text x="90" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Knowledge Graph</text>
+<text x="90" y="35" text-anchor="middle" fill="#e9d5ff" font-size="9">Neo4j/Amazon Neptune</text>
+</g>
+
+<!-- Relational DB -->
+<g transform="translate(470, 40)">
+<rect x="0" y="0" width="180" height="45" fill="#6b21a8" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+<text x="90" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Relational DB</text>
+<text x="90" y="35" text-anchor="middle" fill="#e9d5ff" font-size="9">PostgreSQL/MySQL</text>
+</g>
+
+<!-- Cache Layer -->
+<g transform="translate(680, 40)">
+<rect x="0" y="0" width="180" height="45" fill="#6b21a8" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+<text x="90" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Cache Layer</text>
+<text x="90" y="35" text-anchor="middle" fill="#e9d5ff" font-size="9">Redis/Memcached</text>
+</g>
+
+<!-- Object Storage -->
+<g transform="translate(890, 40)">
+<rect x="0" y="0" width="180" height="45" fill="#6b21a8" stroke="#8b5cf6" stroke-width="1" rx="4"/>
+<text x="90" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Object Storage</text>
+<text x="90" y="35" text-anchor="middle" fill="#e9d5ff" font-size="9">S3/MinIO/GCS</text>
+</g>
+```
+
+</g>
+
+<!-- Infrastructure Layer -->
+
+<g transform="translate(100, 640)">
+<rect x="0" y="0" width="1200" height="100" fill="#164e63" stroke="#0891b2" stroke-width="2" rx="8"/>
+<text x="600" y="25" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Infrastructure and DevOps Layer</text>
+
+```
+<!-- Container Runtime -->
+<g transform="translate(50, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Container Runtime</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Docker/containerd</text>
+</g>
+
+<!-- CI/CD Pipeline -->
+<g transform="translate(220, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">CI/CD Pipeline</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Jenkins/GitLab CI</text>
+</g>
+
+<!-- IaC -->
+<g transform="translate(390, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">IaC</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Terraform/Ansible</text>
+</g>
+
+<!-- Service Mesh -->
+<g transform="translate(560, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Service Mesh</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Istio/Linkerd</text>
+</g>
+
+<!-- Logging -->
+<g transform="translate(730, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Logging</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">ELK/Fluentd</text>
+</g>
+
+<!-- Security -->
+<g transform="translate(900, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Security</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Vault/Keycloak</text>
+</g>
+
+<!-- Backup -->
+<g transform="translate(1070, 40)">
+<rect x="0" y="0" width="140" height="45" fill="#0e7490" stroke="#0891b2" stroke-width="1" rx="4"/>
+<text x="70" y="20" text-anchor="middle" fill="white" font-size="11">Backup</text>
+<text x="70" y="35" text-anchor="middle" fill="#cffafe" font-size="9">Velero/Restic</text>
+</g>
+```
+
+</g>
+
+<!-- External Services -->
+
+<g transform="translate(100, 770)">
+<rect x="0" y="0" width="1200" height="50" fill="#7f1d1d" stroke="#dc2626" stroke-width="2" rx="8"/>
+<text x="600" y="20" text-anchor="middle" fill="white" font-size="14" font-weight="bold">External AI/ML Services</text>
+
+```
+<g transform="translate(50, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">OpenAI API</text>
+</g>
+
+<g transform="translate(190, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">Azure OpenAI</text>
+</g>
+
+<g transform="translate(330, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">Anthropic API</text>
+</g>
+
+<g transform="translate(470, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">Google AI</text>
+</g>
+
+<g transform="translate(610, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">Hugging Face</text>
+</g>
+
+<g transform="translate(750, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">AWS Bedrock</text>
+</g>
+
+<g transform="translate(890, 25)">
+<rect x="0" y="0" width="120" height="20" fill="#991b1b" stroke="#dc2626" stroke-width="1" rx="3"/>
+<text x="60" y="14" text-anchor="middle" fill="white" font-size="9">GitHub Copilot</text>
+</g>
+```
+
+</g>
+
+<!-- 네트워크 연결선들 -->
+
+<!-- Frontend to Orchestration -->
+
+<path d="M 700 210 L 700 230" stroke="#60a5fa" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+<!-- Orchestration to Agents -->
+
+<path d="M 700 340 L 700 360" stroke="#34d399" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+<!-- Agents to Data -->
+
+<path d="M 700 490 L 700 510" stroke="#f97316" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+<!-- Data to Infrastructure -->
+
+<path d="M 700 620 L 700 640" stroke="#8b5cf6" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+<!-- Infrastructure to External -->
+
+<path d="M 700 750 L 700 770" stroke="#06b6d4" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+<!-- 좌측 범례 -->
+
+<g transform="translate(20, 400)">
+<rect x="0" y="0" width="15" height="15" fill="#3730a3"/>
+<text x="20" y="12" fill="#94a3b8" font-size="10">Frontend</text>
+
+```
+<rect x="0" y="20" width="15" height="15" fill="#059669"/>
+<text x="20" y="32" fill="#94a3b8" font-size="10">Orchestration</text>
+
+<rect x="0" y="40" width="15" height="15" fill="#7c2d12"/>
+<text x="20" y="52" fill="#94a3b8" font-size="10">AI Services</text>
+
+<rect x="0" y="60" width="15" height="15" fill="#581c87"/>
+<text x="20" y="72" fill="#94a3b8" font-size="10">Data Layer</text>
+
+<rect x="0" y="80" width="15" height="15" fill="#164e63"/>
+<text x="20" y="92" fill="#94a3b8" font-size="10">Infrastructure</text>
+
+<rect x="0" y="100" width="15" height="15" fill="#7f1d1d"/>
+<text x="20" y="112" fill="#94a3b8" font-size="10">External APIs</text>
+```
+
+</g>
+
+<!-- 화살표 마커 -->
+
+<defs>
+<marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+<polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa"/>
+</marker>
+</defs>
+</svg>
